@@ -7,6 +7,6 @@ resource "aws_instance" "workspace" {
   instance_type = "t2.small"
   key_name = "Key_Asif"
   tags = {
-    Name = "Manual"
+    Name = "Asif_TFCloud_Server1"
   }
 }
